@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlMainTop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/color_green_dark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/home_title"
+            android:textColor="@color/color_white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlMainWrapContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlMainTop">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/imgvAvatar"
+            android:layout_centerHorizontal="true"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:visibility="gone"
+            android:src="@drawable/icon_user"/>
+
+        <Button
+
+            android:id="@+id/btnQrBarcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/border_green_bg_white"
+            android:padding="5dp"
+            android:text="@string/read_qr_code"
+            android:textColor="@color/color_black" />
+    </RelativeLayout>
+
+</RelativeLayout>

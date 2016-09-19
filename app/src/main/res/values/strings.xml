@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ARDemo</string>
+    <string name="read_qr_code">Read QR Code</string>
+    <string name="home_title">Home</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="scan_bar_code">Scan Bar Code</string>
+</resources>

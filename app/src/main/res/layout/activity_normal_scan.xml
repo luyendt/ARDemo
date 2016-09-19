@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.tppfit.ardemo.NormalScan">
+
+    <Button
+        android:id="@+id/btnScanQr"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_green_bg_white"
+        android:padding="5dp"
+        android:text="@string/scan_qr_code"
+        android:textColor="@color/color_black" />
+    <Button
+        android:layout_below="@+id/btnScanQr"
+        android:id="@+id/btnScanBar"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_green_bg_white"
+        android:padding="5dp"
+        android:text="@string/scan_bar_code"
+        android:textColor="@color/color_black" />
+
+</RelativeLayout>
